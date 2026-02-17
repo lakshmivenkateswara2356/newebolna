@@ -6,19 +6,19 @@ const team = [
     name: "Mr. Visionary",
     role: "CEO & Founder",
     image:
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61",
+      "",
   },
   {
     name: "Sukhleen Kaur",
     role: "Workforce & Administration",
     image:
-      "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+      "",
   },
   {
     name: "Salman Ali Hussaini",
     role: "Project Manager",
     image:
-      "https://images.unsplash.com/photo-1603415526960-f7e0328d6b2d",
+      "",
   },
 ];
 

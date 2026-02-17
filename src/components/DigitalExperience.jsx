@@ -4,17 +4,17 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const faqs = [
   {
-    question: "What services does WebWorks Co. offer?",
+    question: "What services does Volna Technologies offer?",
     answer:
       "We offer end-to-end digital solutions including IT services (web & app development), digital marketing, business consultation, private cloud storage, email automation, AI tools, and NFC-enabled business profiles.",
   },
   {
-    question: "Who can benefit from WebWorks Co.’s services and products?",
+    question: "Who can benefit from Volna Technologies services and products?",
     answer:
       "Startups, SMEs, enterprises, and individuals looking to scale digitally can benefit from our solutions.",
   },
   {
-    question: "How is WebWorks Co. different from other digital agencies?",
+    question: "How is Volna Technologies different from other digital agencies?",
     answer:
       "We focus on innovation, measurable results, and long-term partnerships with guaranteed satisfaction.",
   },
