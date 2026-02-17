@@ -58,7 +58,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black/60" />
 
         <div className="relative z-10 h-full flex items-center">
-          <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10 text-white">
+          <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-40 text-white">
             <motion.h1
               initial={{ opacity: 0, y: 60 }}
               animate={{ opacity: 1, y: 0 }}
@@ -107,7 +107,7 @@ const Hero = () => {
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ repeat: Infinity, duration: 3 }}
-                className="absolute bottom-10 right-10 bg-gradient-to-br from-[#0A6CFF] to-white text-white rounded-2xl p-8 lg:w-56 w-24"
+                className="absolute bottom-10 right-10 bg-gradient-to-br from-[#0A6CFF] to-white text-white rounded-2xl p-8 lg:w-56 w-40"
               >
                 <h2
                   className="lg:text-[96px] text-[42px] font-extrabold text-transparent"

@@ -1,22 +1,30 @@
 import React from "react";
 import { Send, Facebook, Linkedin } from "lucide-react";
+import Logo from '../Assets/volnaLogo-removebg-preview.png';
 
 const Footer = () => {
   return (
     <footer className="relative bg-gradient-to-br from-[#012f34] via-[#024950] to-[#0fb9b1] text-white">
       
       {/* MAIN CONTENT */}
-      <div className="max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-14">
+      <div className="max-w-7xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-14">
         
         {/* BRAND */}
         <div>
-          <h2 className="text-2xl font-bold tracking-wide">
+          <div className="flex gap-2">
+           <img src={Logo} alt="volna logo" className="h-[50px]"/>
+           <div>
+          <h2 className="text-2xl font-bold tracking-wide mt-2">
             Volna Technologies
           </h2>
 
-          <p className="text-sm text-white/80 mt-6 max-w-xs">
+          <p className="text-sm text-white/80 mt-2 max-w-xs">
             The change you have been looking for.
           </p>
+            </div>
+          </div>
+
+          
 
           {/* SOCIAL */}
           <div className="flex gap-6 mt-6">
@@ -116,8 +124,7 @@ const Footer = () => {
       {/* BOTTOM */}
       <div className="max-w-7xl mx-auto px-6 py-6 text-center text-sm text-white/80">
         © 2025 All Rights Reserved. Volna Technologies Pvt Ltd <br />
-        ISO/IEC 27001:2022 Certified | Accredited by UKAF London through GCS
-      </div>
+        </div>
     </footer>
   );
 };
