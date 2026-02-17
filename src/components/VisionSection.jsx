@@ -38,10 +38,9 @@ export default function VisionSection() {
           <ul className="mt-8 space-y-4">
             {[
               "IT Services",
-              "Digital Marketing Services",
-              "WayStars AI",
-              "Athena",
-              "BizKonnect Pro",
+              "Web development & servicess",
+              "data scraping",
+              "SEO Optimization",
             ].map((service, index) => (
               <li
                 key={index}

@@ -28,8 +28,7 @@ const ServiceCard = ({ icon: Icon, title, subtitle, description, gradient }) => 
     whileHover={{ y: -12 }}
     transition={{ duration: 0.6 }}
     viewport={{ once: true }}
-    className="group relative bg-white rounded-3xl p-10 border
-               overflow-hidden hover:shadow-2xl"
+    className="group relative bg-white rounded-3xl p-10 border overflow-hidden hover:shadow-2xl"
   >
     <div className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition bg-gradient-to-br from-transparent ${gradient}`} />
 
@@ -51,7 +50,8 @@ const ServiceCard = ({ icon: Icon, title, subtitle, description, gradient }) => 
 /* ---------------- MAIN ---------------- */
 const Hero = () => {
   return (
-    <>
+    /* ✅ THIS LINE FIXES THE WIDTH ISSUE */
+    <div className="overflow-x-hidden">
       {/* HERO */}
       <section className="relative h-screen">
         <Navbar />
@@ -108,10 +108,10 @@ const Hero = () => {
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ repeat: Infinity, duration: 3 }}
-                className="absolute bottom-10 right-10 bg-gradient-to-br from-[#0A6CFF] to-white text-white rounded-2xl p-8 lg:w-56 w-25"
+                className="absolute bottom-10 right-10 bg-gradient-to-br from-[#0A6CFF] to-white text-white rounded-2xl p-8 lg:w-56 w-24"
               >
                 <h2
-                  className="lg:text-[96px]  text-[42px] font-extrabold text-transparent"
+                  className="lg:text-[96px] text-[42px] font-extrabold text-transparent"
                   style={{ WebkitTextStroke: "2px white" }}
                 >
                   03
@@ -150,9 +150,8 @@ const Hero = () => {
           >
             <h2 className="text-5xl font-bold mb-6">
               Trusted by businesses,<br />
-respected for results
+              respected for results
             </h2>
-            
           </motion.div>
         </div>
       </section>
@@ -173,10 +172,9 @@ respected for results
         </div>
       </section>
 
-      
       <DigitalExperience />
-      <Footer/>
-    </>
+      <Footer />
+    </div>
   );
 };
 
