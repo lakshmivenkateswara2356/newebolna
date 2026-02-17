@@ -6,7 +6,6 @@ import Navbar from "../components/Navbar";
 import second from "../Assets/kelvin-zyteng-X5tXk8WSBks-unsplash.jpg";
 import aboutImg from "../Assets/mikhail-fesenko-p6YWrjhmjhM-unsplash.jpg";
 import { Globe, Target, Cpu, Sparkles, ArrowRight } from "lucide-react";
-import Leadership from "../components/Leadership";
 import DigitalExperience from "../components/DigitalExperience";
 import Footer from "../components/Footer";
 
