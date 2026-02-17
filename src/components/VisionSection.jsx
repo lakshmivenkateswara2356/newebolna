@@ -27,7 +27,7 @@ export default function VisionSection() {
 
           <h2 className="text-4xl md:text-5xl font-bold text-sea-deep mt-6 leading-tight">
             Driven by Vision, Defined by Innovation.
-            <br /> This is WebWorks Co.
+            <br /> This is Volna Technologies
           </h2>
 
           <p className="text-gray-600 mt-6 leading-relaxed">
